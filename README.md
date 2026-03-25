@@ -78,6 +78,5 @@ npm run dev
 2) Перетащите/выберите один или несколько `.txt` файлов в блок “Загрузка книг (.txt)”
 3) После индексации книги появятся в списке “Загруженные книги”
 
-api=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
+ключ api - по запросу
 
-# hakaton
