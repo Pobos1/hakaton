@@ -74,21 +74,10 @@ npm run dev
 
 Поддерживаются только `.txt` файлы.
 
-### Вариант 1: через UI
-
 1) Откройте `http://localhost:3000`
 2) Перетащите/выберите один или несколько `.txt` файлов в блок “Загрузка книг (.txt)”
 3) После индексации книги появятся в списке “Загруженные книги”
 
-### Вариант 2: через API (curl)
-
-```bash
-curl -F "file=@/path/to/book.txt" http://localhost:8000/upload
-```
-
-Полезные эндпоинты:
-- `GET /books` — список загруженных книг
-- `DELETE /books/{book_title}` — удалить книгу из индекса
-- `DELETE /books` — очистить все книги
+api=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
 
 # hakaton
